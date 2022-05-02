@@ -1,0 +1,16 @@
+PODS:
+  - iOSMobileSDK (1.0.0)
+
+DEPENDENCIES:
+  - iOSMobileSDK (= 1.0.0)
+
+SPEC REPOS:
+  https://github.com/DJ110/iOS-Mobile-SDK.git:
+    - iOSMobileSDK
+
+SPEC CHECKSUMS:
+  iOSMobileSDK: 13a64cbf667550e4c51ba2e64ee8dec5ec51a11d
+
+PODFILE CHECKSUM: 5fa2c5e5fe6cf0f1777a78ced5b41762a6dc529e
+
+COCOAPODS: 1.11.3
