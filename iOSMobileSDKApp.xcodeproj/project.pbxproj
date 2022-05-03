@@ -14,7 +14,7 @@
 		628BDF31281F84F800625B4A /* iOSMobileSDKAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628BDF30281F84F800625B4A /* iOSMobileSDKAppTests.swift */; };
 		628BDF3B281F84F800625B4A /* iOSMobileSDKAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628BDF3A281F84F800625B4A /* iOSMobileSDKAppUITests.swift */; };
 		628BDF3D281F84F800625B4A /* iOSMobileSDKAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628BDF3C281F84F800625B4A /* iOSMobileSDKAppUITestsLaunchTests.swift */; };
-		628BDF7B281F86B600625B4A /* iOSMobileSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 628BDF7A281F86B600625B4A /* iOSMobileSDK.xcframework */; };
+		62A4D7C72820C6C6009AB166 /* iOSMobileSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62A4D7C62820C6C6009AB166 /* iOSMobileSDK.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +45,7 @@
 		628BDF36281F84F800625B4A /* iOSMobileSDKAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSMobileSDKAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		628BDF3A281F84F800625B4A /* iOSMobileSDKAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSMobileSDKAppUITests.swift; sourceTree = "<group>"; };
 		628BDF3C281F84F800625B4A /* iOSMobileSDKAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSMobileSDKAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		628BDF7A281F86B600625B4A /* iOSMobileSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = iOSMobileSDK.xcframework; path = iOSMobileSDKApp/frameworks/iOSMobileSDK.xcframework; sourceTree = "<group>"; };
+		62A4D7C62820C6C6009AB166 /* iOSMobileSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = iOSMobileSDK.xcframework; path = Carthage/Build/iOSMobileSDK.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				628BDF7B281F86B600625B4A /* iOSMobileSDK.xcframework in Frameworks */,
+				62A4D7C72820C6C6009AB166 /* iOSMobileSDK.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,7 +81,7 @@
 				628BDF2F281F84F800625B4A /* iOSMobileSDKAppTests */,
 				628BDF39281F84F800625B4A /* iOSMobileSDKAppUITests */,
 				628BDF1D281F84F700625B4A /* Products */,
-				628BDF79281F86B600625B4A /* Frameworks */,
+				62A4D7C52820C6C6009AB166 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,10 +131,10 @@
 			path = iOSMobileSDKAppUITests;
 			sourceTree = "<group>";
 		};
-		628BDF79281F86B600625B4A /* Frameworks */ = {
+		62A4D7C52820C6C6009AB166 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				628BDF7A281F86B600625B4A /* iOSMobileSDK.xcframework */,
+				62A4D7C62820C6C6009AB166 /* iOSMobileSDK.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

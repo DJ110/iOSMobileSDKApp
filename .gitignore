@@ -72,9 +72,9 @@ Xcode workspace
 #
 # Add this line if you want to avoid checking in source code from Carthage 
 dependencies.
-# Carthage/Checkouts
-
+Carthage/Checkouts
 Carthage/Build/
+
 
 # Accio dependency management
 Dependencies/
