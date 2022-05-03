@@ -14,7 +14,7 @@
 		628BDF31281F84F800625B4A /* iOSMobileSDKAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628BDF30281F84F800625B4A /* iOSMobileSDKAppTests.swift */; };
 		628BDF3B281F84F800625B4A /* iOSMobileSDKAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628BDF3A281F84F800625B4A /* iOSMobileSDKAppUITests.swift */; };
 		628BDF3D281F84F800625B4A /* iOSMobileSDKAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628BDF3C281F84F800625B4A /* iOSMobileSDKAppUITestsLaunchTests.swift */; };
-		628BDF7B281F86B600625B4A /* iOSMobileSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 628BDF7A281F86B600625B4A /* iOSMobileSDK.xcframework */; };
+		62A4D7CB2820D353009AB166 /* iOSMobileSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 62A4D7CA2820D353009AB166 /* iOSMobileSDK */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +45,6 @@
 		628BDF36281F84F800625B4A /* iOSMobileSDKAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSMobileSDKAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		628BDF3A281F84F800625B4A /* iOSMobileSDKAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSMobileSDKAppUITests.swift; sourceTree = "<group>"; };
 		628BDF3C281F84F800625B4A /* iOSMobileSDKAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSMobileSDKAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		628BDF7A281F86B600625B4A /* iOSMobileSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = iOSMobileSDK.xcframework; path = iOSMobileSDKApp/frameworks/iOSMobileSDK.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				628BDF7B281F86B600625B4A /* iOSMobileSDK.xcframework in Frameworks */,
+				62A4D7CB2820D353009AB166 /* iOSMobileSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,7 +80,6 @@
 				628BDF2F281F84F800625B4A /* iOSMobileSDKAppTests */,
 				628BDF39281F84F800625B4A /* iOSMobileSDKAppUITests */,
 				628BDF1D281F84F700625B4A /* Products */,
-				628BDF79281F86B600625B4A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,14 +129,6 @@
 			path = iOSMobileSDKAppUITests;
 			sourceTree = "<group>";
 		};
-		628BDF79281F86B600625B4A /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				628BDF7A281F86B600625B4A /* iOSMobileSDK.xcframework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -155,6 +145,9 @@
 			dependencies = (
 			);
 			name = iOSMobileSDKApp;
+			packageProductDependencies = (
+				62A4D7CA2820D353009AB166 /* iOSMobileSDK */,
+			);
 			productName = iOSMobileSDKApp;
 			productReference = 628BDF1C281F84F700625B4A /* iOSMobileSDKApp.app */;
 			productType = "com.apple.product-type.application";
@@ -227,6 +220,9 @@
 				Base,
 			);
 			mainGroup = 628BDF13281F84F700625B4A;
+			packageReferences = (
+				62A4D7C92820D353009AB166 /* XCRemoteSwiftPackageReference "iOS-Mobile-SDK-SP" */,
+			);
 			productRefGroup = 628BDF1D281F84F700625B4A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -591,6 +587,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		62A4D7C92820D353009AB166 /* XCRemoteSwiftPackageReference "iOS-Mobile-SDK-SP" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/DJ110/iOS-Mobile-SDK-SP.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		62A4D7CA2820D353009AB166 /* iOSMobileSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 62A4D7C92820D353009AB166 /* XCRemoteSwiftPackageReference "iOS-Mobile-SDK-SP" */;
+			productName = iOSMobileSDK;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 628BDF14281F84F700625B4A /* Project object */;
 }
