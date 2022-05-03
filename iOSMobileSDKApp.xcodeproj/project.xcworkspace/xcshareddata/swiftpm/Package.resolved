@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "ios-mobile-sdk-sp",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/DJ110/iOS-Mobile-SDK-SP.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "22d456705eed425d3e8166752a034074b296ff48"
+      }
+    }
+  ],
+  "version" : 2
+}
